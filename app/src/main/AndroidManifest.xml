@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectscan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="Scaveng"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.PlayActivity" />
+        <activity android:name=".Activities.StartActivity" />
+        <activity android:name=".Activities.AccountActivity" />
+        <activity android:name=".Activities.BalanceActivity" />
+        <activity android:name=".Activities.EventActivity" />
+        <activity android:name=".Activities.CheckpointActivity" />
+        <activity android:name=".Activities.RankingActivity"></activity>
+    </application>
+
+</manifest>

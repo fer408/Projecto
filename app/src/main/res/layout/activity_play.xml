@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.example.projectscan.Activities.PlayActivity">
+
+    <Button
+        android:text="Start Game"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:id="@+id/start_button" />
+
+    <Button
+        android:text="Account"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_button"
+        android:layout_alignLeft="@+id/start_button"
+        android:layout_alignStart="@+id/start_button"
+        android:layout_marginTop="20dp"
+        android:id="@+id/account_button" />
+
+    <Button
+        android:text="Balance"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/balance_button"
+        android:layout_below="@+id/account_button"
+        android:layout_alignLeft="@+id/account_button"
+        android:layout_alignStart="@+id/account_button"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:text="Past Events"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/events_button"
+        android:layout_below="@+id/balance_button"
+        android:layout_alignLeft="@+id/balance_button"
+        android:layout_alignStart="@+id/balance_button"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
